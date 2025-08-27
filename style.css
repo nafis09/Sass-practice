@@ -33,7 +33,6 @@ nav ul a {
 }
 #Homepage div img {
   width: 100%;
-  height: 50%;
 }
 #Homepage .d1 h1 {
   font-size: 32px;
@@ -41,6 +40,10 @@ nav ul a {
 }
 #Homepage .d1 p {
   margin: 0 0 32px 16px;
+}
+#Homepage .d2 img {
+  width: 100%;
+  width: 80%;
 }
 
 button {
@@ -90,26 +93,27 @@ button:last-child {
   margin: 16px 0;
 }
 
-#postPage {
-  display: flex;
-  justify-content: space-around;
-}
-#postPage .post, #postPage .bigPost {
+.post, .bigPost, #postPage .bigPost, #postPage .post {
   background: gray;
   width: 400px;
   border-radius: 10px;
   text-align: center;
   padding: 16px;
 }
-#postPage .post h1, #postPage .bigPost h1 {
+.post h1, .bigPost h1, #postPage .bigPost h1, #postPage .post h1 {
   margin: 16px 0;
   color: white;
 }
-#postPage .post div, #postPage .bigPost div {
+.post div, .bigPost div, #postPage .bigPost div, #postPage .post div {
   padding: 16px 0;
   background: white;
   border-radius: 10px;
   margin-bottom: 16px;
+}
+
+#postPage {
+  display: flex;
+  justify-content: space-around;
 }
 #postPage .post:nth-child(2), #postPage .bigPost:nth-child(2) {
   background: white;
