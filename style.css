@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  font-family: Arial;
+}
+
+nav {
+  background: gray;
+  padding: 16px 0;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 112px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  width: 50%;
+  justify-content: space-around;
+  font-weight: bold;
+}
+nav ul a {
+  text-decoration: none;
+  color: white;
+}
+
+#Homepage {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#Homepage div {
+  width: 600px;
+}
+#Homepage div img {
+  width: 100%;
+}
+
+.d1 h1 {
+  font-size: 32px;
+  margin-bottom: 32px;
+  text-align: center;
+}
+.d1 p {
+  margin: 0 0 32px 16px;
+}
+
+button {
+  padding: 8px 32px;
+  font-size: 16px;
+  font-weight: bold;
+  background: gray;
+  color: white;
+  border: 2px solid gray;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+button:hover {
+  background: white;
+  cursor: pointer;
+  color: gray;
+  box-shadow: 0 0 10px gray;
+}
+button:last-child {
+  background: white;
+  color: gray;
+}
+
+.banner {
+  background: gray;
+  margin: 64px 160px;
+  border-radius: 10px;
+  padding: 16px;
+  color: white;
+  text-align: center;
+  height: 128px;
+}
+.banner * {
+  margin: 16px;
+}
+.banner button:hover {
+  box-shadow: 0 0 10px white;
+}
+
+#about {
+  width: 800px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+#about h1 {
+  margin: 16px 0;
+}
+
+#postPage {
+  display: flex;
+  justify-content: space-around;
+}
+#postPage .post, #postPage .bigPost {
+  background: gray;
+  width: 400px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 16px;
+}
+#postPage .post h1, #postPage .bigPost h1 {
+  margin: 16px 0;
+  color: white;
+}
+#postPage .post div, #postPage .bigPost div {
+  padding: 16px 0;
+  background: white;
+  border-radius: 10px;
+  margin-bottom: 16px;
+}
+#postPage .post:nth-child(2), #postPage .bigPost:nth-child(2) {
+  background: white;
+  border: 3px solid gray;
+}
+#postPage .post:nth-child(2) h1, #postPage .bigPost:nth-child(2) h1 {
+  color: gray;
+}
+#postPage .post:nth-child(2) h1 div, #postPage .bigPost:nth-child(2) h1 div {
+  border: 3px solid gray;
+}
+
+.bigPost {
+  margin: 16px auto;
+}/*# sourceMappingURL=style.css.map */
