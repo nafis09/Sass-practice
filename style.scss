@@ -1,8 +1,6 @@
-// Variables
 $theme-color: gray;
 $font-stack: 'Arial', sans-serif;
 
-// Nesting & Styling
 body {
   font-family: $font-stack;
   margin: 0;
@@ -28,8 +26,6 @@ nav {
          }
    }
 }
-
-
 
 #Homepage {
     display: flex;
@@ -60,7 +56,6 @@ nav {
     }
        
 }
-    
     
     
 button{
@@ -169,10 +164,10 @@ button{
 
 }
 
-  
 
 .bigPost{
     @extend .post;
     margin: 16px auto;
     width: 800px;
+    margin-top: 50px;
 }
